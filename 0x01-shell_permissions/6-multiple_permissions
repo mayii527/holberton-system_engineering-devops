@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+g hello
+chgrp u+g hello
