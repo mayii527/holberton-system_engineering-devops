@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo
+sudo chmod /6-multiple_permissions/hello
