@@ -1,2 +1,2 @@
 #!/bin/bash
-touch hello chmod
+touch hello chmod u+x betty
