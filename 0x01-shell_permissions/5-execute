@@ -1,2 +1,2 @@
 #!/bin/bash
-touch hello #!/bin/bash chmod u+x hello 
+touch hello chmod u+x hello 
