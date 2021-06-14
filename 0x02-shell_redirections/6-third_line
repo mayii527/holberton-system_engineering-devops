@@ -1,2 +1,2 @@
 #!/bin/bash
-find 3 iacta
+find -n 3 iacta
