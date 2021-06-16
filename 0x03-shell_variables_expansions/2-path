@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $CDPATH /action
+$CDPATH /action
