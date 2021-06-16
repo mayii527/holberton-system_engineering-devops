@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth -maxdept 1 -type d PATH | wc -ls
+find PATH -type f | wc -l
