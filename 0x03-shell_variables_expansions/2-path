@@ -1,2 +1,2 @@
 #!/bin/bash
-export $CDPAT /action
+export $CDPATH /action
