@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $CD/action
+echo $CDPATH=/action
