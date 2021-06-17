@@ -1,2 +1,2 @@
 #!/bin/bash
-let suma=$TRUEKNOWLEDGE+128; echo $suma 
+let suma=$TRUEKNOWLEDGE+128 echo $suma 
