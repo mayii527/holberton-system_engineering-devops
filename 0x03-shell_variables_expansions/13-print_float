@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(NUM +%N)2.31" 
+printf '%.2f\n' $NUM 
