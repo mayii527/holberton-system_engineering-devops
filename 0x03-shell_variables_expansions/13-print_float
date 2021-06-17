@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(NUM +%N)2.31 89.00"
+echo "$(NUM +%N)2.31 | 89.00"
