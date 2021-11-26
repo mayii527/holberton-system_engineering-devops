@@ -75,3 +75,12 @@ Requirements:
     - Why terminating SSL at the load balancer level is an issue
     - Why having only one MySQL server capable of accepting writes is an issue
     - Why having servers with all the same components (database, web server and application server) might be a problem.
+---
+
+### About
+
+Diagrams of web stacks with different functionalities.
+
+- Showing each necessary component
+- Showing system redundancy
+- Showing understanding of acronyms: LAMP, SPOF, QPS
