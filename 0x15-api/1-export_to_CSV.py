@@ -21,16 +21,20 @@ if __name__ == "__main__":
 
             data_user = []
             for i in dict_todos_users:
-                print('hello')
                 data_user.append(i)
 
             print_data = []
             for a in data_user:
-                data_user.append(id_user, nameEmployee,
-                                 a['completed'], a['title'])
+                print_data.append({'id': id_user, 'username': nameEmployee,
+                                   'completed': str(a['completed']),
+                                   'title': a['title']})
 
-            with open('file.csv'.format(id_user), 'w', newline='') as f:
-                writer = csv.writer(f, quoting=csv.QUOTE_ALL, delimiter=',')
-                writer.writerows(print_data)
-    except:
+            fieldnames = ['id', 'username', 'completed', 'title']
+            with open('{}.csv'.format(id_user), 'w',
+                      encoding='UTF8', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames,
+                                        quoting=csv.QUOTE_ALL)
+                for x in print_data:
+                    writer.writerow(x)
+    except ValueError:
         print('Error')
