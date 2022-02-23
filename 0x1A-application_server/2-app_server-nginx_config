@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-"""configure Nginx to serve your page from the route /airbnb-onepage/"""
+#configure Nginx to serve your page from the route /airbnb-onepage/
 server {
        listen 80;
        server_name _;
